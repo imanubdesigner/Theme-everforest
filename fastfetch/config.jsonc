@@ -1,0 +1,105 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  HYPRLAND
+//
+//  by Bina
+
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+    	"source": "~/.config/fastfetch/turtwig.png",
+    	"type": "kitty",
+    	"height": 14,
+    	"padding": {
+    		"top": 3
+    	}
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+	"break",
+        "break",
+        "break",
+        {
+            "type": "title",
+            "color": {
+                "user": "36",  // = color2
+                "at": "38",
+                "host": "36"
+            }
+        },
+        "break",
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "32",  // = color4
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "32",
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": " ",
+            "keyColor": "32",
+        },
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "32",
+        },
+        {
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "32",
+        },
+        {
+            "type": "wm",
+            "key": " ",
+            "keyColor": "32",
+        },
+        {
+            "type": "cursor",
+            "key": " ",
+            "keyColor": "32",
+        },
+        {
+            "type": "terminalfont",
+            "key": " ",
+            "keyColor": "32",
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "32",
+        },
+        {
+            "type": "datetime",
+            "format": "{1}-{3}-{11}",
+            "key": " ",
+            "keyColor": "32",
+        },
+        {
+            "type": "media",
+            "key": "󰝚 ",
+            "keyColor": "32",
+        },
+        {
+            "type": "player",
+            "key": " ",
+            "keyColor": "32",
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m"
+        },
+        "break",
+        "break",
+    ]
+}
