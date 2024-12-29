@@ -5,17 +5,21 @@
 ### Screenshots
 
 #### Desktop
+Plasma Color Theme: Install in Plasma Color settings.
 ![desktop](screenshots/desktop.png)
 
 #### FastFetch
+Installation: Save the config.jsonc and turtwig.png to ~/.config/fastfetch
 ![fastfetch](screenshots/fastfetch.png)
 
 #### Discord
 Adjusted color theme of [System24](https://github.com/refact0r/system24) theme by [refact0r](https://github.com/refact0r)
+Installation: Install [Vencord](https://vencord.dev/) and save the .css file in ~/.config/Vencord/themes and enable in Vencord settings.
 ![discord](screenshots/discord.png)
 
 #### Spotify
 Adjusted color theme of [text](https://github.com/spicetify/spicetify-themes/tree/master/text) theme by [darkthemer](https://github.com/darkthemer)
+Installation: Follow the installation instructions on the text theme above. Overwrite the color.ini file in ~/.config/spicetify/themes/text. After overwriting the color.ini theme, run "spicetify apply" in terminal.
 ![spotify](screenshots/spotify.png)
 
 #### Kate
