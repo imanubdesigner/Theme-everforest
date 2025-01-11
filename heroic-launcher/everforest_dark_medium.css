@@ -1,0 +1,36 @@
+body.everforest_dark_medium {
+    --accent: #425047;
+    --accent-overlay: #a7c080;
+    --navbar-accent: #d3c6aa;
+    --background: #232a2e;
+    --body-background: #232a2e;
+    --background-darker: var(--body-background);
+    --current-background: var(--body-background);
+    --navbar-background: #232a2e;
+    --navbar-active-background: #2d353b;
+    --gradient-body-background: linear-gradient(
+        90deg, var(--background-darker) -32px,
+        var(--body-background) 64px,
+        var(--body-background) 100%
+    );
+    --input-background: #3d484d;
+    --modal-background: var(--body-background);
+    --modal-border: var(--body-background);
+    --success: #a7c080;
+    --success-hover: #83c092;
+    --primary: #7fbbb3;
+    --primary-hover: #3a515d;
+    --danger: #e67e80;
+    --danger-hover: #543a48;
+    --anticheat-denied: #e67e80;
+    --anticheat-broken: #e67e80;
+    --anticheat-running: #a7c080;
+    --anticheat-supported: #a7c080;
+    --anticheat-planned: #e69875;
+    --text-title: #d3c6aa;
+    --icons-background: #343f44;
+    --action-icon: #d3c6aa;
+    --action-icon-hover: #d699b6;
+    --action-icon-active: #a7c080;
+    --icon-disabled: #514045;
+}
