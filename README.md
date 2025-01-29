@@ -1,6 +1,6 @@
 # dots-ish
 
-## Dots type files for my desktop setup.
+## Dotfiles for my Everforest setup on KDE Plasma 6.
 
 ### Screenshots
 
